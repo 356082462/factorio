@@ -1,0 +1,271 @@
+<!DOCTYPE html><html lang="en"><head ><title >Concepts</title><meta charset="UTF-8"/><link rel="stylesheet" type="text/css" href="lua-doc.css"/></head><body ><div class="navigation-bar"><span class="navigation"><a href="index.html">Factorio</a> &raquo; Concepts</span><span class="version">Factorio 0.12.20</span></div><h1 >Concepts</h1> Commonly used conventions for passing data between mods and Factorio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="brief-listing"><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Position">Position</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Vector">Vector</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#BoundingBox">BoundingBox</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Color">Color</a></span></div><div class="brief-listing"> struct <span class="type-name"><a href="Concepts.html#GameViewSettings">GameViewSettings</a></span><table class="brief-members"><tr ><td class="header"><span class="element-name"><a href="Concepts.html#GameViewSettings.showcontrollergui">showcontrollergui</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+        Show the controller GUI elements.</td></tr><tr ><td class="header"><span class="element-name"><a href="Concepts.html#GameViewSettings.showminimap">showminimap</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+        Show the chart in the upper right-hand corner of the screen.</td></tr><tr ><td class="header"><span class="element-name"><a href="Concepts.html#GameViewSettings.showresearchinfo">showresearchinfo</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+        Show research progress and name in the upper right-hand corner of the screen.</td></tr><tr ><td class="header"><span class="element-name"><a href="Concepts.html#GameViewSettings.showentityinfo">showentityinfo</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+        Show overlay icons on entities.</td></tr><tr ><td class="header"><span class="element-name"><a href="Concepts.html#GameViewSettings.showalertgui">showalertgui</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+        Show the flashing alert icons next to the player's toolbar.</td></tr><tr ><td class="header"><span class="element-name"><a href="Concepts.html#GameViewSettings.updateentityselection">updateentityselection</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+        When <code >true</code> (the default), mousing over an entity will select it.</td></tr></table></div><div class="brief-listing"> struct <span class="type-name"><a href="Concepts.html#TileProperties">TileProperties</a></span><table class="brief-members"><tr ><td class="header"><span class="element-name"><a href="Concepts.html#TileProperties.tier_from_start">tier_from_start</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+      </td></tr><tr ><td class="header"><span class="element-name"><a href="Concepts.html#TileProperties.roughness">roughness</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+      </td></tr><tr ><td class="header"><span class="element-name"><a href="Concepts.html#TileProperties.elevation">elevation</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+      </td></tr><tr ><td class="header"><span class="element-name"><a href="Concepts.html#TileProperties.available_water">available_water</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+      </td></tr><tr ><td class="header"><span class="element-name"><a href="Concepts.html#TileProperties.temperature">temperature</a></span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [RW]</span></td><td class="description">
+      </td></tr></table></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#MapSettings">MapSettings</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Ingredient">Ingredient</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Product">Product</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Loot">Loot</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Modifier">Modifier</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#AutoplaceSpecification">AutoplaceSpecification</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Resistances">Resistances</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#MapGenFrequency">MapGenFrequency</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#MapGenSize">MapGenSize</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#MapGenRichness">MapGenRichness</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#MapGenSettings">MapGenSettings</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#SignalID">SignalID</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#CircuitCondition">CircuitCondition</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Filter">Filter</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#SimpleItemStack">SimpleItemStack</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#Command">Command</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#SurfaceSpecification">SurfaceSpecification</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#TrainSchedule">TrainSchedule</a></span></div><div class="brief-listing-empty">type <span class="type-name"><a href="Concepts.html#GuiArrowSpecification">GuiArrowSpecification</a></span></div></div><div class="element" id="Position"><h2 >Position</h2><p >
+  Positions may be specified either as a dictionary with <code >x</code>, <code >y</code> as keys,
+  or simply as an array with two elements.
+
+  
+
+  
+</p><div class="example"><div class="example-header">Example</div>
+  <div class="block-code-container"><code class="block">  {10,&nbsp;20}</code></div>
+  </div><div class="example"><div class="example-header">Example</div>
+  <div class="block-code-container"><code class="block">  {x&nbsp;=&nbsp;50,&nbsp;y&nbsp;=&nbsp;20}<br/>
+  {y&nbsp;=&nbsp;20,&nbsp;x&nbsp;=&nbsp;50}</code></div>
+  </div></div>
+<div class="element" id="Vector"><h2 >Vector</h2><p >
+  A vector is a two-element array containing the x and y components. Unlike Positions, vectors don't use the
+  <code >x</code>, <code >y</code> keys.
+
+  
+</p><div class="example"><div class="example-header">Example</div>
+    <div class="block-code-container"><code class="block">right&nbsp;=&nbsp;{1.0,&nbsp;0.0}</code></div>
+  </div></div>
+<div class="element" id="BoundingBox"><h2 >BoundingBox</h2><p >
+  Two positions, specifying the top-left and bottom-right corner of the box, respectively. Like with <a href="Concepts.html#Position">Position</a>,
+  the names of the members may be omitted.
+
+  Members:<ul class="field-list"><li ><span class="param-name">left_top</span> :: <span class="param-type"><a href="Concepts.html#Position">Position</a></span></li><li ><span class="param-name">right_bottom</span> :: <span class="param-type"><a href="Concepts.html#Position">Position</a></span></li></ul>
+
+  
+</p><div class="example"><div class="example-header">Example</div>
+    Explicit specification:
+    <div class="block-code-container"><code class="block">    {left_top&nbsp;=&nbsp;{-2,&nbsp;-3},&nbsp;right_bottom&nbsp;=&nbsp;{5,&nbsp;8}}</code></div>
+
+    Shorthand:
+    <div class="block-code-container"><code class="block">    {{-2,&nbsp;-3},&nbsp;{5,&nbsp;8}}</code></div>
+  </div></div>
+<div class="element" id="Color"><h2 >Color</h2><p >
+  Red, green, blue and alpha values, all in range [0, 1]. All values here are optional; colour channels default to 0,
+  the alpha channel defaults to 1. Unlike <a href="Concepts.html#Position">Position</a>, Color does not allow the short-hand notation of passing
+  an array.
+
+  Members:<ul class="field-list"><li ><span class="param-name">r</span> :: <span class="param-type"><a href="Builtin-Types.html#float">float</a></span> <span class="opt"> (optional)</span></li><li ><span class="param-name">g</span> :: <span class="param-type"><a href="Builtin-Types.html#float">float</a></span> <span class="opt"> (optional)</span></li><li ><span class="param-name">b</span> :: <span class="param-type"><a href="Builtin-Types.html#float">float</a></span> <span class="opt"> (optional)</span></li><li ><span class="param-name">a</span> :: <span class="param-type"><a href="Builtin-Types.html#float">float</a></span> <span class="opt"> (optional)</span></li></ul>
+
+  
+</p><div class="example"><div class="example-header">Example</div>
+    <div class="block-code-container"><code class="block">    red1&nbsp;=&nbsp;{r&nbsp;=&nbsp;1,&nbsp;g&nbsp;=&nbsp;0,&nbsp;b&nbsp;=&nbsp;0,&nbsp;a&nbsp;=&nbsp;0.5}&nbsp;&nbsp;--&nbsp;Half-opacity&nbsp;red<br/>
+    red2&nbsp;=&nbsp;{r&nbsp;=&nbsp;1,&nbsp;a&nbsp;=&nbsp;0.5}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Same&nbsp;colour&nbsp;as&nbsp;red1<br/>
+    black&nbsp;=&nbsp;{}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;All&nbsp;channels&nbsp;omitted:&nbsp;black<br/>
+    not_a_color&nbsp;=&nbsp;{1,&nbsp;0,&nbsp;0,&nbsp;0.5}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Actually&nbsp;also&nbsp;black:&nbsp;None&nbsp;of&nbsp;r,&nbsp;g,&nbsp;b&nbsp;have&nbsp;been&nbsp;specified</code></div>
+  </div></div>
+<div class="element" id="GameViewSettings"><h2 >GameViewSettings</h2><p >
+  Parameters that affect the look and control of the game. Updating any of the member attributes here
+  will immediatelly take effect in the game engine.
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</p><div class="element" id="GameViewSettings.showcontrollergui"><div class="element-header"><span class="element-name">showcontrollergui</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+        Show the controller GUI elements. This includes the toolbar, the selected tool slot, the armour slot,
+    and the gun and ammunition slots.
+  </p></div></div>
+<div class="element" id="GameViewSettings.showminimap"><div class="element-header"><span class="element-name">showminimap</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+        Show the chart in the upper right-hand corner of the screen.
+  </p></div></div>
+<div class="element" id="GameViewSettings.showresearchinfo"><div class="element-header"><span class="element-name">showresearchinfo</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+        Show research progress and name in the upper right-hand corner of the screen.
+  </p></div></div>
+<div class="element" id="GameViewSettings.showentityinfo"><div class="element-header"><span class="element-name">showentityinfo</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+        Show overlay icons on entities. Also known as "alt-mode".
+  </p></div></div>
+<div class="element" id="GameViewSettings.showalertgui"><div class="element-header"><span class="element-name">showalertgui</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+        Show the flashing alert icons next to the player's toolbar.
+  </p></div></div>
+<div class="element" id="GameViewSettings.updateentityselection"><div class="element-header"><span class="element-name">updateentityselection</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+        When <code >true</code> (the default), mousing over an entity will select it. When <code >false</code>, the mouse
+  </p></div></div></div>
+<div class="element" id="TileProperties"><h2 >TileProperties</h2><p >
+  Properties of a tile. Updating any of the member attributes here will immediatelly take effect in the game
+  engine.
+
+  
+
+  
+
+  
+
+  
+
+  
+</p><div class="element" id="TileProperties.tier_from_start"><div class="element-header"><span class="element-name">tier_from_start</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+      </p></div></div>
+<div class="element" id="TileProperties.roughness"><div class="element-header"><span class="element-name">roughness</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+      </p></div></div>
+<div class="element" id="TileProperties.elevation"><div class="element-header"><span class="element-name">elevation</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+      </p></div></div>
+<div class="element" id="TileProperties.available_water"><div class="element-header"><span class="element-name">available_water</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+      </p></div></div>
+<div class="element" id="TileProperties.temperature"><div class="element-header"><span class="element-name">temperature</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span></div><div class="element-content"><p >
+      </p></div></div></div>
+<div class="element" id="MapSettings"><h2 >MapSettings</h2><p >
+  Various game-related settings. See <code >data/base/prototypes/map-settings.lua</code> for a description
+  of all attributes. Updating any of the attributes will immediately take effect in the game engine.
+
+  
+</p><div class="example"><div class="example-header">Example</div>
+    Increase the number of short paths the pathfinder can cache.
+    <div class="block-code-container"><code class="block">game.map_settings.path_finder.short_cache_size&nbsp;=&nbsp;15</code></div>
+  </div></div>
+<div class="element" id="Ingredient"><h2 >Ingredient</h2><p >
+  An ingredient is a table <ul class="field-list"><li ><span class="param-name">type</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  <code >"item"</code> or <code >"fluid"</code></li><li ><span class="param-name">name</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Prototype name of the required item or fluid</li><li ><span class="param-name">amount</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  Amount of the item.</li></ul>
+</p></div>
+<div class="element" id="Product"><h2 >Product</h2><p >
+  Table with the following fields: <ul class="field-list"><li ><span class="param-name">type</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  <code >"item"</code> or <code >"fluid"</code></li><li ><span class="param-name">name</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Prototype name of the result</li><li ><span class="param-name">amount</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span> <span class="opt"> (optional)</span>:  Amount of the item or fluid to give. If not specified, <code >amount_min</code>,
+      <code >amount_max</code> and <code >probability</code> must all be specified.</li><li ><span class="param-name">amount_min</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span> <span class="opt"> (optional)</span>:  Minimal amount of the item or fluid to give. Has no effect when <code >amount</code>
+      is specified.</li><li ><span class="param-name">amount_max</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span> <span class="opt"> (optional)</span>:  Maximum amount of the item or fluid to give. Has no effect when <code >amount</code>
+      is specified.</li><li ><span class="param-name">probability</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span> <span class="opt"> (optional)</span>:  A value in range [0, 1]. Item or fluid is only given with this probability;
+      otherwise no product is produced. Has no effect when <code >amount</code> is specified.</li></ul>
+
+  
+  
+  
+
+  </p><div class="example"><div class="example-header">Example</div>
+    Products of the "steel-chest" recipe (an array of Product)
+    <div class="block-code-container"><code class="block">    {{type="item",name="steel-chest",amount=1}}</code></div>
+  </div><div class="example"><div class="example-header">Example</div>
+    Products of the "advanced-oil-processing" recipe
+    <div class="block-code-container"><code class="block">    {{type="fluid",&nbsp;name="heavy-oil",&nbsp;amount=1},<br/>
+    &nbsp;{type="fluid",&nbsp;name="light-oil",&nbsp;amount=4.5},<br/>
+    &nbsp;{type="fluid",&nbsp;name="petroleum-gas",&nbsp;amount=5.5}}</code></div>
+  </div><div class="example"><div class="example-header">Example</div>
+    What a custom recipe would look like that had a probability of 0.5 to return a minimum amount of 1 and a
+    maximum amount of 5
+    <div class="block-code-container"><code class="block">    {{type="item",name="custom-item",&nbsp;probability=0.5,&nbsp;amount_min=1,&nbsp;amount_max=5}}</code></div>
+  </div><div class="detail"><div class="detail-header">See also</div><div class="detail-content"><ul ><li ><a href="LuaRecipe.html#products">LuaRecipe::products</a></li></ul></div></div></div>
+<div class="element" id="Loot"><h2 >Loot</h2><p >
+  Loot is an array of loot items. Each loot item is a table: <ul class="field-list"><li ><span class="param-name">item</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Item prototype name of the result.</li><li ><span class="param-name">probability</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  Probability that any loot at all will drop, as a number in range [0, 1].</li><li ><span class="param-name">count_min</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  Minimum amount of loot to drop.</li><li ><span class="param-name">count_max</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  Maximum amount of loot to drop.</li></ul>
+</p></div>
+<div class="element" id="Modifier"><h2 >Modifier</h2><p >
+  The effect that is applied when a technology is researched. It is a table that contains at least the field
+  <code >type</code>. A modifier may also have other fields depending on the type.
+
+  <ul class="field-list"><li ><span class="param-name">type</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Modifier type. Specifies which of the other fields will be available. Possible values
+      are <code >"inserter-stack-size-bonus"</code>, <code >"laboratory-speed"</code>, <code >"character-logistic-slots"</code>,
+      <code >"character-logistic-trash-slots"</code>, <code >"num-quick-bars"</code>, <code >"maximum-following-robots-count"</code>,
+      <code >"logistic-robot-speed"</code>, <code >"logistic-robot-storage"</code>, <code >"ghost-time-to-live"</code>, <code >"turret-attack"</code>, <code >"ammo-damage"</code>,
+      <code >"give-item"</code>, <code >"gun-speed"</code>, <code >"unlock-recipe"</code>.</li><li >Depending on <code >type</code><ul ><li ><code >"gun-speed"</code><ul class="field-list"><li ><span class="param-name">ammo_category</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Prototype name of the ammunition category that is affected</li><li ><span class="param-name">modifier</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  Modification value. This will be added to the current gun speed modifier upon
+          researching.</li></ul></li><li ><code >"give-item"</code><ul class="field-list"><li ><span class="param-name">item</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Item prototype name to give.</li><li ><span class="param-name">count</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span> <span class="opt"> (optional)</span>:  Number of items to give. Defaults to 1.</li></ul></li><li ><code >"turret-attack"</code><ul class="field-list"><li ><span class="param-name">turret_id</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Turret prototype name this modifier will affect.</li><li ><span class="param-name">modifier</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  Modification value. This will be added to the current turret speed modifier upon
+          researching.</li></ul></li><li ><code >"unlock-recipe"</code><ul class="field-list"><li ><span class="param-name">recipe</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Recipe prototype name to unlock.</li></ul></li><li >others<ul class="field-list"><li ><span class="param-name">modifier</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  Modification value. This value will be added to the variable it modifies.</li></ul></li></ul></li></ul>
+</p></div>
+<div class="element" id="AutoplaceSpecification"><h2 >AutoplaceSpecification</h2><p >
+Table with the following fields: <ul class="field-list"><li ><span class="param-name">sharpness</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">max_probability</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">placement_density</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span></li><li ><span class="param-name">richness_base</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">richness_multiplier</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">order</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span></li><li ><span class="param-name">peaks</span> :: <span class="param-type">array of <span class="param-type">peak</span></span> <span class="opt"> (optional)</span>:  A peak is a table: <ul class="field-list"><li ><span class="param-name">influence</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">max_influence</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">min_influence</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">richness_influence</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">noisePersistence</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">noise_layer</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span> <span class="opt"> (optional)</span>:  Prototype name of the noise layer</li><li ><span class="param-name">noise_octaves_difference</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">d_optimal</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  <code >d</code> is the dimension name; this attribute may occur multiple times, once for each
+      dimension, every time with a different prefix.</li><li ><span class="param-name">d_range</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  <code >d</code> is the dimension name.</li><li ><span class="param-name">d_top_property_limit</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  <code >d</code> is the dimension name.</li><li ><span class="param-name">d_max_range</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  <code >d</code> is the dimension name.</li></ul></li><li ><span class="param-name">control</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span> <span class="opt"> (optional)</span>:  Control prototype name</li><li ><span class="param-name">tile_restriction</span> :: <span class="param-type">array of <span class="param-type">restriction</span></span> <span class="opt"> (optional)</span>:  Restriction is a table: <ul class="field-list"><li ><span class="param-name">first</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span> <span class="opt"> (optional)</span>:  Tile prototype name</li><li ><span class="param-name">second</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span> <span class="opt"> (optional)</span>:  Second prototype name</li></ul></li><li ><span class="param-name">size_control_multiplier</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li><li ><span class="param-name">force</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span></li><li ><span class="param-name">random_probability_penalty</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></li></ul>
+</p></div>
+<div class="element" id="Resistances"><h2 >Resistances</h2><p >
+  Dictionary of resistances toward each damage type. It is a dictionary indexed by damage type names (see
+  <code >data/base/prototypes/damage-type.lua</code>). Each resistance is a table: <ul class="field-list"><li ><span class="param-name">decrease</span> :: <span class="param-type"><a href="Builtin-Types.html#float">float</a></span>:  Absolute damage decrease</li><li ><span class="param-name">percent</span> :: <span class="param-type"><a href="Builtin-Types.html#float">float</a></span>:  Percentual damage decrease</li></ul>
+</p></div>
+<div class="element" id="MapGenFrequency"><h2 >MapGenFrequency</h2><p >
+  It is a string specifying frequency. Possible values are Table with the following fields: <ul class="field-list"></ul>
+</p></div>
+<div class="element" id="MapGenSize"><h2 >MapGenSize</h2><p >
+  It is a string specifying size. Possible values are Table with the following fields: <ul class="field-list"></ul>
+</p></div>
+<div class="element" id="MapGenRichness"><h2 >MapGenRichness</h2><p >
+  A string specifying richness. Possible values are Table with the following fields: <ul class="field-list"></ul>
+</p></div>
+<div class="element" id="MapGenSettings"><h2 >MapGenSettings</h2><p >
+  Table with the following fields: <ul class="field-list"><li ><span class="param-name">terrain_segmentation</span> :: <span class="param-type"><a href="Concepts.html#MapGenFrequency">MapGenFrequency</a></span></li><li ><span class="param-name">water</span> :: <span class="param-type"><a href="Concepts.html#MapGenSize">MapGenSize</a></span></li><li ><span class="param-name">autoplace_controls</span> :: <span class="param-type">dictionary <span class="param-type"><a href="Builtin-Types.html#string">string</a></span> &rarr; <span class="param-type">table</span></span>:  Each table of this dictionary has the following fields:
+      <ul class="field-list"><li ><span class="param-name">frequency</span> :: <span class="param-type"><a href="Concepts.html#MapGenFrequency">MapGenFrequency</a></span></li><li ><span class="param-name">size</span> :: <span class="param-type"><a href="Concepts.html#MapGenSize">MapGenSize</a></span></li><li ><span class="param-name">richness</span> :: <span class="param-type"><a href="Concepts.html#MapGenRichness">MapGenRichness</a></span></li></ul></li><li ><span class="param-name">seed</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  The random seed used to generated this map.</li><li ><span class="param-name">shift</span> :: <span class="param-type"><a href="Concepts.html#Position">Position</a></span>:  How much the (0, 0) tile is shifted from what would have been generated otherwise.</li><li ><span class="param-name">width</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  Width in tiles. If 0, the map has infinite width.</li><li ><span class="param-name">height</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  Height in tiles. If 0, the map has infinite height.</li><li ><span class="param-name">peaceful_mode</span> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span>:  Whether peaceful mode is enabled for this map.</li></ul>
+</p></div>
+<div class="element" id="SignalID"><h2 >SignalID</h2><p >
+  Table with the following fields: <ul class="field-list"><li ><span class="param-name">type</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  <code >"item"</code>, <code >"fluid"</code>, or <code >"virtual"</code>.</li><li ><span class="param-name">name</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span> <span class="opt"> (optional)</span>:  Name of the item, fluid or virtual signal.</li></ul>
+</p></div>
+<div class="element" id="CircuitCondition"><h2 >CircuitCondition</h2><p >
+  Table with the following fields: <ul class="field-list"><li ><span class="param-name">comparator</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span> <span class="opt"> (optional)</span>:  Must be one of <code >"<"</code>, <code >">"</code>, <code >"="</code>. Specifies how the inputs should be
+      compared. If not specified, defaults to <code >"<"</code>.</li><li ><span class="param-name">first_signal</span> :: <span class="param-type"><a href="Concepts.html#SignalID">SignalID</a></span> <span class="opt"> (optional)</span>:  Defaults to blank</li><li ><span class="param-name">second_signal</span> :: <span class="param-type"><a href="Concepts.html#SignalID">SignalID</a></span> <span class="opt"> (optional)</span>:  What to compare <code >first_signal</code> to. If not specified, <code >first_signal</code>
+      will be compared to <code >constant</code>.</li><li ><span class="param-name">constant</span> :: <span class="param-type"><a href="Builtin-Types.html#int">int</a></span> <span class="opt"> (optional)</span>:  Constant to compare <code >first_signal</code> to. Has no effect when <code >second_signal</code> is set.
+      When neither <code >second_signal</code> nor <code >constant</code> are specified, the effect is as though <code >constant</code> were specified
+      with the value <code >0</code>.</li></ul>
+</p></div>
+<div class="element" id="Filter"><h2 >Filter</h2><p >
+  Table with the following fields: <ul class="field-list"><li ><span class="param-name">index</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  Position of the corresponding filter slot.</li><li ><span class="param-name">name</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Item prototype name of the item to filter.</li></ul>
+</p></div>
+<div class="element" id="SimpleItemStack"><h2 >SimpleItemStack</h2><p >
+  Table with the following fields: <ul class="field-list"><li ><span class="param-name">name</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Prototype name of the item the stack holds.</li><li ><span class="param-name">count</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  Number of the items the stack holds.</li></ul>
+</p></div>
+<div class="element" id="Command"><h2 >Command</h2><p >
+  Commands can be given to enemies and unit groups. It is a table: <ul class="field-list"><li ><span class="param-name">type</span> :: <span class="param-type"><a href="defines.html#command">defines.command</a></span>:  Type of command. The remaining fields depend on the value of this field.</li><li >Depending on <code >type</code><ul ><li >defines.command.attack<ul class="field-list"><li ><span class="param-name">target</span> :: <span class="param-type"><a href="LuaEntity.html">LuaEntity</a></span></li><li ><span class="param-name">distraction</span> :: <span class="param-type"><a href="defines.html#distraction">defines.distraction</a></span> <span class="opt"> (optional)</span>:  Defaults to <code >defines.distraction.by_enemy</code>.</li></ul></li><li >defines.command.goto<ul class="field-list"><li ><span class="param-name">destination</span> :: <span class="param-type"><a href="Concepts.html#Position">Position</a></span></li><li ><span class="param-name">distraction</span> :: <span class="param-type"><a href="defines.html#distraction">defines.distraction</a></span> <span class="opt"> (optional)</span>:  Defaults to <code >defines.distraction.by_enemy</code>.</li></ul></li><li >defines.command.compound<ul class="field-list"><li ><span class="param-name">structure_type</span> :: <span class="param-type"><a href="defines.html#compoundcommandtype">defines.compoundcommandtype</a></span>:  How the commands should be chained together.</li><li ><span class="param-name">commands</span> :: <span class="param-type">array of <span class="param-type"><a href="Concepts.html#Command">Command</a></span></span>:  The sub-commands.</li></ul></li><li >defines.command.group<ul class="field-list"><li ><span class="param-name">group</span> :: <span class="param-type"><a href="LuaUnitGroup.html">LuaUnitGroup</a></span>:  The group whose command to follow.</li><li ><span class="param-name">distraction</span> :: <span class="param-type"><a href="defines.html#distraction">defines.distraction</a></span> <span class="opt"> (optional)</span>:  Defaults to <code >defines.distraction.by_enemy</code>.</li></ul></li><li >defines.command.attack_area<ul class="field-list"><li ><span class="param-name">destination</span> :: <span class="param-type"><a href="Concepts.html#Position">Position</a></span>:  Centre of the attack area.</li><li ><span class="param-name">radius</span> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span>:  Radius of the attack area.</li><li ><span class="param-name">distraction</span> :: <span class="param-type"><a href="defines.html#distraction">defines.distraction</a></span> <span class="opt"> (optional)</span>:  Defaults to <code >defines.distraction.by_enemy</code>.</li></ul></li><li >defines.command.wander<ul class="field-list"><li ><span class="param-name">distraction</span> :: <span class="param-type"><a href="defines.html#distraction">defines.distraction</a></span> <span class="opt"> (optional)</span>:  Defaults to <code >defines.distraction.by_enemy</code>.</li></ul></li><li >defines.command.build_base<ul class="field-list"><li ><span class="param-name">destination</span> :: <span class="param-type"><a href="Concepts.html#Position">Position</a></span>:  Where to build the base.</li><li ><span class="param-name">distraction</span> :: <span class="param-type"><a href="defines.html#distraction">defines.distraction</a></span> <span class="opt"> (optional)</span>:  Defaults to <code >defines.distraction.by_enemy</code>.</li><li ><span class="param-name">ignore_planner</span> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span> <span class="opt"> (optional)</span>:  Whether the units should ignore expansion candidate chunks. When
+          <code >false</code>, they will obey and not build a base in a non-candidate chunk. Defaults to <code >false</code>.</li></ul></li></ul></li></ul>
+</p></div>
+<div class="element" id="SurfaceSpecification"><h2 >SurfaceSpecification</h2><p >
+  A surface may be specified in one of three ways. <ul ><li > As an <a href="Builtin-Types.html#uint">uint</a>: It will be the index of the surface. <code >nauvis</code> has index <code >1</code>, the first user-created
+      surface will have index <code >2</code> and so on.</li><li > As a <a href="Builtin-Types.html#string">string</a>:  It will be the surface name. E.g. <code >"nauvis"</code>.</li><li > As a <a href="LuaSurface.html">LuaSurface</a>: If you have a reference to <a href="LuaSurface.html">LuaSurface</a>, you may pass it directly.</li></ul>
+</p></div>
+<div class="element" id="TrainSchedule"><h2 >TrainSchedule</h2><p >
+  Table with the following fields: <ul class="field-list"><li ><span class="param-name">current</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  Current stop on the schedule.</li><li ><span class="param-name">records</span> :: <span class="param-type">array of <span class="param-type">table</span></span>:  Each record has the following fields: <ul class="field-list"><li ><span class="param-name">station</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Station name</li><li ><span class="param-name">time_to_wait</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  Number of ticks to wait at the station.</li></ul></li></ul>
+</p></div>
+<div class="element" id="GuiArrowSpecification"><h2 >GuiArrowSpecification</h2><p >
+  Used for specifying where a GUI arrow should point to. It is a table: <ul class="field-list"><li ><span class="param-name">type</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  This determines which of the following fields will be required. Must be one of <code >"nowhere"</code>
+      (will remove the arrow entirely), <code >"goal"</code> (will point to the current goal), <code >"entity_info"</code>, <code >"active_window"</code>,
+      <code >"entity"</code>, <code >"position"</code>, <code >"crafting_queue"</code> or <code >"item_stack"</code> (will point to a given item stack in an
+      inventory). Depending on this value, other fields may have to be specified.</li><li >Depending on <code >type</code><ul ><li ><code >"entity"</code><ul class="field-list"><li ><span class="param-name">entity</span> :: <span class="param-type"><a href="LuaEntity.html">LuaEntity</a></span></li></ul></li><li ><code >"position"</code><ul class="field-list"><li ><span class="param-name">position</span> :: <span class="param-type"><a href="Concepts.html#Position">Position</a></span></li></ul></li><li ><code >"crafting_queue"</code><ul class="field-list"><li ><span class="param-name">crafting_queueindex</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  Index in the crafting queue to point to.</li></ul></li><li ><code >"item_stack"</code><ul class="field-list"><li ><span class="param-name">inventory_index</span> :: <span class="param-type"><a href="defines.html#inventory">defines.inventory</a></span>:  Which inventory the stack is in.</li><li ><span class="param-name">item_stack_index</span> :: <span class="param-type"><a href="Builtin-Types.html#uint">uint</a></span>:  Which stack to point to.</li><li ><span class="param-name">source</span> :: <span class="param-type"><a href="Builtin-Types.html#string">string</a></span>:  Must be either <code >"player"</code> or <code >"target"</code>.</li></ul></li></ul></li></ul>
+</p></div></body></html>

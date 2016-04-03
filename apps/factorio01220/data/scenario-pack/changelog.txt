@@ -1,0 +1,111 @@
+--------------------------------------------------
+Version: 0.12.11
+Date: 16. 10. 2015
+  Bugfixes:
+    - Fixed the script inconsistancy.
+    - Fixed thw wrong point calculation in the supply challange.
+--------------------------------------------------
+Version: 0.12.10
+Date: 02. 10. 2015
+  Features:
+    - Updated locale.
+--------------------------------------------------
+Version: 0.12.9
+Date: 30. 09. 2015
+  Features:
+    - Updated locale.
+--------------------------------------------------
+Version: 0.12.8
+Date: 16. 09. 2015
+  Features:
+    - Updated locale.
+--------------------------------------------------
+Version: 0.12.5
+Date: 28. 08. 2015
+  Bugfixes:
+    - Fixed that the output inserters weren't taking things out in the transport belt madness.
+--------------------------------------------------
+Version: 0.12.4
+Date: 14. 08. 2015
+  Features:
+    - Updated locale.
+--------------------------------------------------
+Version: 0.12.3
+Date: 07. 08. 2015
+  Bugfixes:
+    - Fix of the tight spot scripting.
+--------------------------------------------------
+Version: 0.12.1
+Date: 24. 07. 2015
+  Bugfixes:
+    - Compatibility with 0.12.0.
+--------------------------------------------------
+Version 0.11.16
+Date 26.2.2015
+  Bugfixes:
+    - Fixed mining walls in Tight Spot.
+--------------------------------------------------
+Version 0.11.6
+Date 20.6.2013
+  Bugfixes:
+    - Fixed errors in Tight Spot related to too outdated data files.
+    - Fixed error in the tight spot related to renaming of wall to stone-wall.
+--------------------------------------------------
+Version 0.10.1
+Date 20.6.2013
+  Bugfixes:
+    - Fixed errors in Tight Spot and Transport Belt Maddness related to Lua API change
+--------------------------------------------------
+Version 0.9.8
+Date 8.4.2013
+  Bugfixes:
+    - Removed debugging code from supply challenge that allowed
+      immediately going to the next level.
+--------------------------------------------------
+Version 0.9.7
+Date 4.4.2013
+  Bugfixes:
+    - Updated scenario pack to work with Factorio 0.9.7.
+  Changes:
+    - Added oil industry to Tight Spot and Supply Challenge.
+--------------------------------------------------
+Version 0.7.5
+Date 31.10.2013
+  Bugfixes:
+    - Fixed the script changes incompatibilities.
+--------------------------------------------------
+Version 0.5.1
+Date 13.6.2013
+  Balancing:
+    - Supply challenge is little bit less hardcore.
+--------------------------------------------------
+Version 0.5.0
+Date 7.6.2013
+  Features:
+    - Better tightspot level 04 balancing
+    - Tight-Spot uses automatic reload mechanism as well.
+  Bugfixes:
+    - Fixed problems with loading certain levels.
+--------------------------------------------------
+Version 0.4.4
+Date 13.5.2013
+  Bugfixes:
+    - Corrected tag of result chest in the level 04 of tightspot.
+--------------------------------------------------
+Version 0.4.3
+Date 9.5.2013
+  Bugfixes:
+    - Backwords compatibility with 0.4.1 version of factorio (inserter orientation in the transport belt madness fix)
+--------------------------------------------------
+Version 0.4.2
+  Bugfixes:
+    - Fixed connection of levels in the transport belt madness.
+    - In transport belt madness used basic inserter on input, to avoid "cheaty"
+      tactics based on the synchronisation of input and output.
+--------------------------------------------------
+Version 0.4.1
+Date 5.5. 2013
+  Features:
+    - Tight spot campaign
+    - Transport belt madness campaign
+    - Supply challenge mission
