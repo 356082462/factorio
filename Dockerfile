@@ -7,15 +7,11 @@ MAINTAINER zetas "zhentao.deng@icloud.com"
 #复制游戏服务端到自定义镜像
 COPY ./apps /apps
 
-RUN chmod 755 /apps/run.sh
+RUN chmod +x /apps/factorio01220/bin/x64/factorio
+RUN chmod +x /apps/factorio01229/bin/x64/factorio
+RUN chmod +x /apps/run.sh
 
-#解压0.12.20
-RUN tar -xvzf /apps/Factorio_0.12.20_Linux.tar.gz
-RUN mv Factorio_0.12.20_Linux /apps/factorio01220
-
-#解压0.12.29
-RUN tar -xvzf /apps/factorio_headless_x64_0.12.29.tar.gz
-RUN mv factorio /apps/factorio01229
+RUN yum install -y alsa-lib libX11 libXcursor libXinerama libXrandr libXi mesa-libGL
 
 #挂载点
 VOLUME ["/apps/factorio01220/saves","/apps/factorio01229/saves"]
