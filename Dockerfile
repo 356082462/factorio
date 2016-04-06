@@ -9,6 +9,7 @@ COPY ./apps /apps
 
 RUN chmod +x /apps/factorio01220/bin/x64/factorio
 RUN chmod +x /apps/factorio01229/bin/x64/factorio
+RUN chmod +x /apps/factorio01230/bin/x64/factorio
 RUN chmod +x /apps/run.sh
 
 RUN yum install -y alsa-lib libX11 libXcursor libXinerama libXrandr libXi mesa-libGL
