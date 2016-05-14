@@ -8,14 +8,13 @@ MAINTAINER zetas "zhentao.deng@icloud.com"
 COPY ./apps /apps
 
 RUN chmod +x /apps/factorio01220/bin/x64/factorio
-RUN chmod +x /apps/factorio01229/bin/x64/factorio
-RUN chmod +x /apps/factorio01230/bin/x64/factorio
+RUN chmod +x /apps/factorio01233/bin/x64/factorio
 RUN chmod +x /apps/run.sh
 
 RUN yum install -y alsa-lib libX11 libXcursor libXinerama libXrandr libXi mesa-libGL
 
 #挂载点
-VOLUME ["/apps/factorio01220/saves","/apps/factorio01229/saves"]
+VOLUME ["/apps/factorio01220/saves","/apps/factorio01233/saves"]
 
 #工作目录
 WORKDIR /
